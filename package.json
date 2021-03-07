@@ -20,7 +20,8 @@
 			"!<rootDir>/node_modules/",
 			"!<rootDir>/src/__tests__/",
 			"!<rootDir>/src/setupTests.js",
-			"!<rootDir>/src/index.jsx"
+			"!<rootDir>/src/index.jsx",
+			"!<rootDir>/src/utils/constants/*.js"
 		],
 		"coverageThreshold": {
 			"global": {

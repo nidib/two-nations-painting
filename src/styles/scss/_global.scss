@@ -1,0 +1,35 @@
+html {
+	font-family: 'Roboto', sans-serif;
+}
+
+.container {
+	box-sizing: border-box;
+	width: 900px;
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+
+section[class^="section"] {
+	padding-bottom: 60px;
+}
+
+section[class^="section"]:nth-of-type(odd) {
+	background-color: $lightgray;
+}
+
+h2.section-title {
+	text-align: center;
+	color: $black;
+	font-size: 32px;
+	line-height: $selected-height;
+}
+
+h2.section-title span {
+	background-color: $red;
+	color: $white;
+	padding: 0 10px;
+	height: $selected-height;
+	display: inline-block;
+	margin-bottom: 50px;
+}

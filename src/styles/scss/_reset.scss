@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: $black;
+
+	&:visited {
+		color: $black;
+	}
+}
+
+p {
+	color: $black;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+ul {
+	list-style: none;
+}
+
+button {
+	display: block;
+	outline: none;
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	width: auto;
+	color: inherit;
+	font: inherit;
+	line-height: normal;
+	appearance: none;
+}

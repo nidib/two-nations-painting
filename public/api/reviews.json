@@ -1,0 +1,155 @@
+{
+	"reviews": [
+		{
+			"id": 1,
+			"date": "05/23/2019",
+			"comment": "Communication and follow-through was fantastic. Pablo was a joy to work with who really took pride in his work.",
+			"customer": "Eric J.",
+			"location": "Boca Raton, FL",
+			"stars": 0
+		},
+		{
+			"id": 2,
+			"date": "05/12/2019",
+			"comment": "Great experience. Will definitely hire again!!!",
+			"customer": "Debby L.",
+			"location": "Deerfield Beach, FL",
+			"stars": 1
+		},
+		{
+			"id": 3,
+			"date": "05/01/2019",
+			"comment": "The company is reliable, very nice and very professional. They do an amazing job. I am very happy and would recommend them to others.",
+			"customer": "Robin D.",
+			"location": "Coral Springs, FL",
+			"stars": 2
+		},
+		{
+			"id": 4,
+			"date": "04/22/2019",
+			"comment": "Pablo gave me honest, fair quotes and delivered a beautiful job quickly and as promised. He is fantastic if you can get his time!",
+			"customer": "Lisa Y.",
+			"location": "Boca Raton, FL",
+			"stars": 3
+		},
+		{
+			"id": 5,
+			"date": "03/04/2019",
+			"comment": "I'm a business owner and have hired Pablo and his Team more than once, so I'm confident in recommending Two Nations Painting to others. Besides being on time, with all the needed tools and labor for the jobs, and extremely efficient and careful, both times Two Nations estimate was one of the lowest out of 6, yet his finished work came out better than expected. Moreover, the consistent quality of their work made it obvious they are professional painters. Overall, hiring Pablo and his Team was a very good experience, and I'm planning on them coming back to paint my entire fitness facility. Bill Kyser, Owner, CLUB 110 Wellness Center",
+			"customer": "Bill K.",
+			"location": "Fort Lauderdale, FL",
+			"stars": 4
+		},
+		{
+			"id": 6,
+			"date": "02/28/2019",
+			"comment": "On time and completed a job that was tedious in a reasonable amount of time. Honest and straight forward.",
+			"customer": "Christopher P.",
+			"location": "Fort Launderdale, FL",
+			"stars": 5
+		},
+		{
+			"id": 7,
+			"date": "02/14/2019",
+			"comment": "Very nice job and a good painter. Also very curtious.",
+			"customer": "Linda C.",
+			"location": "Pompano Beach, FL",
+			"stars": 5
+		},
+		{
+			"id": 8,
+			"date": "11/28/2018",
+			"comment": "I had a very good experience with two nation painting. I would recommend them to my family.",
+			"customer": "John F.",
+			"location": "Fort Launderdale, FL",
+			"stars": 5
+		},
+		{
+			"id": 9,
+			"date": "10/17/2018",
+			"comment": "This company exceeded our expectations. Excellent and professional work ethics, on time every day and also very courteous workers with quality results.Our association will highly consider them on any future bids based on their excellent service provided.",
+			"customer": "Rene V.",
+			"location": "Deerfield Beach, FL",
+			"stars": 5
+		},
+		{
+			"id": 10,
+			"date": "09/10/2018",
+			"comment": "Seemed willing to satisfy customer even on a smaller job",
+			"customer": "Don B.",
+			"location": "Wellington, FL",
+			"stars": 5
+		},
+		{
+			"id": 11,
+			"date": "09/05/2018",
+			"comment": "Excellent work, prompt, polite and takes pride in the finished product.",
+			"customer": "Joan T.",
+			"location": "Pompano Beach, FL",
+			"stars": 5
+		},
+		{
+			"date": "09/02/2018",
+			"comment": "Polite, professional and punctual, his work is impeccable and I highly recommend Pablo, I am very pleased with his work and how quickly the project was completed.",
+			"customer": "Patricia P.",
+			"location": "Fort Launderdale, FL",
+			"stars": 5
+		},
+		{
+			"id": 12,
+			"date": "08/20/2018",
+			"comment": "2 Nations Painting was easy to work with, stayed within my budget, and delivered excellent customer service, would highly recommend.",
+			"customer": "Wendy B.",
+			"location": "Florida",
+			"stars": 5
+		},
+		{
+			"id": 13,
+			"date": "07/21/2018",
+			"comment": "The experience was excellent I had no problems everything was done perfectly and timely manner.",
+			"customer": "Tina J.",
+			"location": "Pompano Beach, FL",
+			"stars": 5
+		},
+		{
+			"id": 14,
+			"date": "07/20/2018",
+			"comment": "Pleasant professional finished job in aloted time would recommend and use again.",
+			"customer": "Linda S.",
+			"location": "Pompano Beach, FL",
+			"stars": 5
+		},
+		{
+			"id": 15,
+			"date": "07/12/2018",
+			"comment": "Professional and very good. I'm very happy with the job.",
+			"customer": "Johana I.",
+			"location": "Florida",
+			"stars": 5
+		},
+		{
+			"id": 16,
+			"date": "07/12/2018",
+			"comment": "Exterior painting of my entire house. Highly recommend to anyone! They are professional, no complaints.",
+			"customer": "Javier A.",
+			"location": "Florida",
+			"stars": 5
+		},
+		{
+			"id": 17,
+			"date": "06/28/2018",
+			"comment": "They were really professional. Got the job done on time.",
+			"customer": "Laura A.",
+			"location": "Florida",
+			"stars": 5
+		},
+		{
+			"id": 18,
+			"date": "06/27/2018",
+			"comment": "He came on time and that was really good.",
+			"customer": "Gabriel C.",
+			"location": "Florida",
+			"stars": 5
+		}
+	]
+}

@@ -1,0 +1,138 @@
+{
+	"projects": [
+		{
+			"type": "interior",
+			"subProjects": [
+				{
+					"images": [
+						"closet-04.jpeg",
+						"closet-01.jpeg",
+						"closet-02.jpeg",
+						"closet-03.jpeg",
+						"closet-05.jpeg"
+					]
+				},
+				{
+					"images": [
+						"ortho-06.jpeg",
+						"ortho-02.jpeg",
+						"ortho-03.jpeg",
+						"ortho-04.jpeg",
+						"ortho-05.jpeg",
+						"ortho-07.jpeg",
+						"ortho-08.jpeg",
+						"ortho-09.jpeg",
+						"ortho-10.jpeg",
+						"ortho-11.jpeg",
+						"ortho-12.jpeg"
+					]
+				},
+				{
+					"images": [
+						"interior-05.jpeg",
+						"interior-01.jpeg",
+						"interior-02.jpeg",
+						"interior-03.jpeg",
+						"interior-04.jpeg"
+					]
+				},
+				{
+					"images": [
+						"floor-01.jpeg",
+						"floor-02.jpeg",
+						"floor-03.jpeg",
+						"floor-04.jpeg",
+						"floor-05.jpeg",
+						"floor-06.jpeg"
+					]
+				},
+				{
+					"images": [
+						"floor-07.jpeg",
+						"floor-08.jpeg",
+						"floor-09.jpeg",
+						"floor-10.jpeg",
+						"wood-01.jpeg",
+						"wood-02.jpeg"
+					]
+				}
+			]
+		},
+		{
+			"type": "exterior",
+			"subProjects": [
+				{
+					"images": [
+						"exterior-01.jpeg",
+						"exterior-02.jpeg",
+						"exterior-03.jpeg",
+						"exterior-04.jpeg",
+						"exterior-05.jpeg",
+						"exterior-06.jpeg",
+						"exterior-07.jpeg",
+						"exterior-08.jpeg",
+						"exterior-09.jpeg"
+					]
+				},
+				{
+					"images": [
+						"exterior-11.jpeg",
+						"exterior-10.jpeg"
+					]
+				},
+				{
+					"images": [
+						"exterior-wd-01.jpeg",
+						"exterior-wd-02.jpeg",
+						"exterior-wd-03.jpeg",
+						"exterior-wd-04.jpeg",
+						"exterior-wd-05.jpeg",
+						"exterior-wd-06.jpeg"
+					]
+				}
+			]
+		},
+		{
+			"type": "stairs",
+			"subProjects": [
+				{
+					"images": [
+						"stairs-06.jpeg",
+						"stairs-02.jpeg",
+						"stairs-08.jpeg",
+						"stairs-03.jpeg",
+						"stairs-09.jpeg",
+						"stairs-04.jpeg",
+						"stairs-11.jpeg",
+						"stairs-05.jpeg",
+						"stairs-10.jpeg",
+						"stairs-07.jpeg"
+					]
+				}
+			]
+		},
+		{
+			"type": "driveway",
+			"subProjects": [
+				{
+					"images": [
+						"driveway-11.jpeg",
+						"driveway-08.jpeg",
+						"driveway-09.jpeg",
+						"driveway-10.jpeg"
+					]
+				},
+				{
+					"images": [
+						"driveway-01.jpeg",
+						"driveway-02.jpeg",
+						"driveway-03.jpeg",
+						"driveway-04.jpeg",
+						"driveway-05.jpeg",
+						"driveway-06.jpeg"
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,13 +1,15 @@
-html {
-	font-family: 'Roboto', sans-serif;
+:root {
+	--black: #{$black};
+	--white: #{$white};
+	--red: #{$red};
+	--lightgray: #{$lightgray};
+	--shadow: #{$shadow};
+	--shadow-hard: #{$shadow-hard};
+	--selected-height: #{selected-height};
 }
 
-.container {
-	box-sizing: border-box;
-	width: 900px;
-	max-width: 100%;
-	margin: 0 auto;
-	padding: 0 30px;
+html {
+	font-family: 'Roboto', sans-serif;
 }
 
 section[class^="section"] {
@@ -15,21 +17,21 @@ section[class^="section"] {
 }
 
 section[class^="section"]:nth-of-type(odd) {
-	background-color: $lightgray;
+	background-color: var(--lightgray);
 }
 
 h2.section-title {
 	text-align: center;
-	color: $black;
+	color: var(--black);
 	font-size: 32px;
-	line-height: $selected-height;
+	line-height: var(--selected-height);
 }
 
 h2.section-title span {
-	background-color: $red;
-	color: $white;
+	background-color: var(--red);
+	color: var(--white);
 	padding: 0 10px;
-	height: $selected-height;
+	height: var(--selected-height);
 	display: inline-block;
 	margin-bottom: 50px;
 }

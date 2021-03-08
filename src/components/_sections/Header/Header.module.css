@@ -1,0 +1,126 @@
+.header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.header nav {
+	order: 0;
+	width: 100%;
+	overflow: hidden;
+	transition: max-height 300ms ease-in-out;
+}
+
+.header nav.active {
+	max-height: 240px;
+}
+
+.header nav ul {
+	background-color: var(--white);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.header nav ul li {
+	width: 100%;
+}
+
+.header nav ul li a {
+	padding: 15px 50px;
+	display: inline-block;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.headerButton {
+	order: 2;
+}
+
+.headerButtonFlippedIcon svg {
+	transform: rotate(180deg);
+}
+
+.headerLogo {
+	width: 315px;
+	order: 1;
+	padding: 30px 0;
+}
+
+@media screen and (min-width: 760px) {
+
+	.headerButton {
+		display: none !important;
+	}
+
+	.headerLogo {
+		order: 0;
+	}
+
+	.header nav {
+		order: 1;
+		width: 100%;
+		max-height: none;
+		overflow: visible;
+		transition: none;
+		margin-bottom: 30px;
+	}
+
+	.header nav ul {
+		background: none;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.header nav ul li {
+		width: auto;
+		transition: background-color 300ms ease;
+	}
+
+	.header nav ul li:hover {
+		background-color: var(--red);
+		box-shadow: 0 0 20px rgb(0, 0, 0, .1);
+	}
+
+	.header nav ul li:hover a {
+		color: var(--white);
+	}
+
+	.header nav ul li a {
+		transition: color 300ms ease;
+		padding: 8px 16px;
+		display: block;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.container {
+		width: 1100px;
+	}
+
+	.header {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.headerLogo {
+		width: 400px;
+	}
+
+	.header nav {
+		max-width: 600px;
+	}
+
+	.header nav ul {
+		justify-content: flex-end;
+	}
+}

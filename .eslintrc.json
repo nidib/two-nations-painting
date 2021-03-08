@@ -25,6 +25,7 @@
 		"comma-dangle": ["error", "never"],
 		"eol-last": ["error", "never"],
 		"import/no-extraneous-dependencies": "off",
+		"import/prefer-default-export": "off",
 		"indent": ["error", "tab"],
 		"jsx-quotes": ["error", "prefer-single"],
 		"linebreak-style": ["error", "unix"],
@@ -34,7 +35,9 @@
 		"one-var": ["error", "never"],
 		"one-var-declaration-per-line": ["error", "always"],
 		"react/jsx-fragments": ["error", "element"],
-		"react/jsx-indent": ["error", "tab"]
+		"react/jsx-indent": ["error", "tab"],
+		"react/jsx-indent-props": ["error", "tab"],
+		"react/jsx-props-no-spreading": "off"
 	},
 	"settings": {
 		"import/resolver": {

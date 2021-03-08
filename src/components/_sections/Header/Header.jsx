@@ -18,7 +18,7 @@ const ulStyles = { backgroundImage: `url(${menuBackground})` };
 
 const Header = () => {
 	const [activeNav, setActiveNav] = useState(false);
-	const navStyles = { maxHeight: activeNav ? 240 : 0 };
+	const navStyles = { maxHeight: activeNav ? 240 : null };
 	const buttonCustomClasses = activeNav ? [...iconButtonClasses, headerButtonFlippedIcon] : iconButtonClasses;
 
 	function handleMenuButtonClick() {

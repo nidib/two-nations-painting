@@ -5,10 +5,12 @@ import Hero from 'components/_sections/Main/Hero/Hero';
 import Projects from 'components/_sections/Main/Projects/Projects';
 import Reviews from 'components/_sections/Main/Reviews/Reviews';
 import Services from 'components/_sections/Main/Services/Services';
+import MessageBanner from 'components/MessageBanner/MessageBanner';
 
 const Main = () => {
 	return (
 		<main id='main'>
+			<MessageBanner text='Free Estimates!' />
 			<Hero />
 			<About />
 			<Services />

@@ -14,7 +14,7 @@ describe('Header tests', () => {
 			expect(wrapper.find(Header)).to.have.length(1);
 			expect(wrapper.find(IconButton)).to.have.length(1);
 			expect(wrapper.find(IconButton).props().customClasses).to.deep.equal(['headerButton']);
-			expect(wrapper.find('nav').props().style).to.deep.equal({ maxHeight: 0 });
+			expect(wrapper.find('nav').props().style).to.deep.equal({ maxHeight: null });
 
 			wrapper.unmount();
 		});
